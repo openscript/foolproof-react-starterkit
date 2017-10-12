@@ -8,10 +8,12 @@
   "license": "MIT",
   "scripts": {
     "prod": "webpack --config webpack.prod.ts --profile",
+    "test": "tslint 'src/**/*.ts?(x)'",
     "dev": "webpack-dev-server --config webpack.dev.ts --content-base dist/ --hot --progress"
   },
   "devDependencies": {
     "tslint": "^5.7.0",
+    "tslint-react": "^3.2.0",
     "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
