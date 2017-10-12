@@ -1,0 +1,12 @@
+{
+  "name": "foolproof-react-starterkit",
+  "version": "0.0.1",
+  "description": "This is a clean foolproof typescript react redux starter kit, with enzyme testing and yarn.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/openscript/foolproof-react-starterkit",
+  "author": "Robin Bühler",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.0.0"
+  }
+}
