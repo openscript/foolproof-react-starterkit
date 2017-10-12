@@ -1,11 +1,11 @@
 # Foolproof React starter kit
-So what you probably interests you the most, first. The stack of this starter kit looks like this:
+This starter kit helps you to create a react-based web application. So what you probably interests you the most, first. The stack of this starter kit looks like this:
 
  - Yarn
  - Typescript
    - tslint
  - Webpack
- - React
+ - React & React DOM
    - Redux
 
 This starter kit should follow this principals:
