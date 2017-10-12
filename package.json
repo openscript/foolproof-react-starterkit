@@ -6,11 +6,21 @@
   "repository": "https://github.com/openscript/foolproof-react-starterkit",
   "author": "Robin Bühler",
   "license": "MIT",
+  "scripts": {
+    "prod": "webpack --config webpack.prod.ts --profile",
+    "dev": "webpack-dev-server --config webpack.dev.ts --content-base dist/ --hot --progress"
+  },
   "devDependencies": {
     "tslint": "^5.7.0",
     "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
+    "@types/copy-webpack-plugin": "^4.0.1",
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1",
+    "@types/webpack": "^3.0.13",
+    "awesome-typescript-loader": "^3.2.3",
+    "copy-webpack-plugin": "^4.1.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "ts-node": "^3.3.0",
