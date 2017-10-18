@@ -1,13 +1,17 @@
 import * as React from 'react';
-import * as Style from './style.scss';
+import styled from 'styled-components';
 
 interface Props {
 }
 
+const Wrapper = styled.div`
+  background-color: blue;
+`;
+
 const Container: React.SFC<Props> = props => (
-    <div className={Style.component}>
+    <Wrapper>
         Hello World!
-    </div>
+    </Wrapper>
 );
 
 export const App = Container;

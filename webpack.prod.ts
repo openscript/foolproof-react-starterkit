@@ -32,16 +32,9 @@ const config: Configuration = {
                 use: [{
                     loader: 'style-loader'
                 }, {
-                    loader: 'typings-for-css-modules-loader',
-                    options: {
-                        modules: true,
-                        namedExport: true,
-                        sass: true
-                    }
-                }, {
                     loader: 'sass-loader',
                     query: {
-                        sourceMap: true
+                        sourceMap: false
                     }
                 }]
             }
