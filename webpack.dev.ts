@@ -45,9 +45,9 @@ const config: Configuration = {
     },
 
     plugins: [
-        new CopyWebpackPlugin([
-            {from: 'src/index.html'}
-        ]),
+        new CopyWebpackPlugin([{
+            from: 'src/index.html'
+        }]),
         new DefinePlugin({
             'process.env': {
                 NODE_ENV: JSON.stringify('development'),

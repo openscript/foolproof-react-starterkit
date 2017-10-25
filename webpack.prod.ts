@@ -42,9 +42,9 @@ const config: Configuration = {
     },
 
     plugins: [
-        new CopyWebpackPlugin([
-            {from: 'src/index.html'}
-        ]),
+        new CopyWebpackPlugin([{
+            from: 'src/index.html'
+        }]),
         new LoaderOptionsPlugin({
             minimize: true,
             debug: false
